@@ -1,6 +1,7 @@
-## Matrix inversion is usually a costly computation.  There may be some benefit to caching the value of the inverse of a matrix rather than computing the value repeatedly.
+## Matrix inversion is usually a costly computation.  
+## There may be some benefit to caching the value of the inverse of a matrix rather than computing the value repeatedly.
 
-## makeCacheMatrix creates a special "matrix" with the function to
+## makeCacheMatrix creates a matrix with the function to
 ## 1. set the value of the matrix
 ## 2. get the value of the matrix
 ## 3. set the value of the inverse of the matrix
